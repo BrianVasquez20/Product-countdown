@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/*** IMG ***/
+.img_container {
+    margin: 20px 0;
+}
+
+.img_container > img {
+    max-width: 100%;
+}
+
+
+/*** ARTICLE ***/
+.info-oferta > h3 {
+    color: rgb(38, 98, 230);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.info-oferta > h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.info-oferta > p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+/*** HOUR BUTTONS ***/
+.countdown {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.countdown-format {
+    display: inline-block;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3px;
+    background-color: rgb(28, 48, 90);
+    color: white;
+}
+
+.countdown-format > div{
+    padding-top: 1.25rem;
+}
+
+
+
+/*** MEDIA QUERIES ***/
+@media screen and (min-width: 701px) {
+    .container {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .img_container > img{
+        min-height: 230px;
+    }
+
+    .info-oferta {
+        margin-top: 20px;
+        
+    }
+
+}
